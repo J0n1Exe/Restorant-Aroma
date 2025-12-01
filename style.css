@@ -1,0 +1,146 @@
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #fffaf5;
+  color: #333;
+}
+
+header {
+  background-color: #8b0000;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+}
+
+header h1 {
+  font-size: 24px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+nav a.active {
+  text-decoration: underline;
+}
+
+nav a:hover {
+  opacity: 0.8;
+}
+
+.section1 {
+  background-size: cover;
+  background-position: center;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.section1 h2 {
+  background: rgba(0,0,0,0.5);
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-size: 36px;
+}
+
+.section1 p {
+  margin-top: 10px;
+  font-size: 18px;
+}
+
+.intro {
+  text-align: center;
+  padding: 60px 80px;
+}
+
+.intro .btn {
+  background-color: #8b0000;
+  color: white;
+  padding: 10px 25px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.intro .btn:hover {
+  background-color: #a60000;
+}
+
+.menu {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.menu-items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.dish {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  width: 250px;
+  padding: 15px;
+  transition: transform 0.2s;
+}
+
+.dish:hover {
+  transform: scale(1.05);
+}
+
+.dish img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.about {
+  background-color: #f7e4dc;
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.contact {
+  padding: 60px 80px;
+  text-align: center;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 300px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+.contact-form button {
+  background-color: #8b0000;
+  color: white;
+  border: none;
+  padding: 10px 25px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #a60000;
+}
